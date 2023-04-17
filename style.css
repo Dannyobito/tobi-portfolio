@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+	font-family: "Montseratt", sans-serif;
+	margin: auto;
+}
+li {
+	list-style: none;
+}
+.page-width {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.nav {
+	display: flex;
+}
+.left {
+	justify-content: left;
+	align-items: center;
+	margin-left: 1rem;
+}
+.middle {
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.right {
+	justify-content: right;
+	align-items: center;
+	margin-right: 1rem;
+}
+.hero {
+	margin-bottom: 6rem;
+}
+.info {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+.hero-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.hero-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.hero-picture {
+	border: 1px solid #333;
+	padding: 3rem;
+	border-radius: 20rem;
+}
+.hero-picture img {
+	border-radius: 20rem;
+	height: 700px;
+	width: 500px;
+}
+.education {
+	display: flex;
+}
+.center {
+	text-align: center;
+}
+.education-center{
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+}
+.big-header{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.mid-header{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.5re;
+}
+.small-header {
+	font-family: 'Arial Narrow Bold', sans-serif;
+	font-size: 0.75rem;
+	color: gray;
+	text-align: center;
+}
+.friends {
+	display: flex;
+	justify-content: space-between;
+}
+.friends-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.friends div img {
+	width: 12rem;
+	height:12rem;
+}
+.projects {
+	display: flex;
+	justify-content: space-between;
+}
+.projects-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.projects div img {
+	width: 22rem;
+	height:12rem;
+}
+
+
