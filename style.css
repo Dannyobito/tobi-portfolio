@@ -16,6 +16,7 @@ li {
 }
 .nav {
 	display: flex;
+	justify-content: space-around;
 }
 .left {
 	justify-content: flex-start;
