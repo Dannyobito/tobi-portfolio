@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat&display=swap');
 
 body {
 	font-family: Montseratt, sans-serif;
@@ -30,7 +30,12 @@ display: block;
 }
 .nav {
 	display: flex;
+	align-items: center;
 	justify-content: space-around;
+}
+.logo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4rem;
 }
 /*.left {
 	justify-content: flex-start;
