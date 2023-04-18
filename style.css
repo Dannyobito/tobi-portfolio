@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-	font-family: "Montseratt", sans-serif;
+	font-family: Montseratt, sans-serif;
 	margin: auto;
 }
 li {
@@ -79,7 +79,7 @@ li {
 }
 .mid-header{
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 1.5re;
+	font-size: 1.5rem;
 }
 .small-header {
 	font-family: 'Arial Narrow Bold', sans-serif;
